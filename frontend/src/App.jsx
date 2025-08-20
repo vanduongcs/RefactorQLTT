@@ -2,12 +2,13 @@ import Box from '@mui/material/Box'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 // Admin
-import TrangChuAdmin from './Pages/Admin/TrangChu.jsx'
-import QLChungChi from './Pages/Admin/QLChungChi.jsx'
-import QLKhoaHoc from './Pages/Admin/QLKhoaHoc.jsx'
-import QLKyThi from './Pages/Admin/QLKyThi.jsx'
-import QLKetQua from './Pages/Admin/QLKetQua.jsx'
-import QLCCDC from './Pages/Admin/QLCCDC.jsx'
+import TrangChuAdmin from './Pages/Admin/TrangChu/TrangChu.jsx'
+import QLNguoiDung from './Pages/Admin/NguoiDung/QLNguoiDung.jsx'
+import QLChungChi from './Pages/Admin/ChungChi/QLChungChi.jsx'
+import QLKhoaHoc from './Pages/Admin/KhoaHoc/QLKhoaHoc.jsx'
+import QLKyThi from './Pages/Admin/KyThi/QLKyThi.jsx'
+import QLKetQua from './Pages/Admin/KetQua/QLKetQua.jsx'
+import QLCCDC from './Pages/Admin/ChungChiDaCap/QLCCDC.jsx'
 
 
 function LayOut() {
@@ -16,6 +17,7 @@ function LayOut() {
       <Router>
         <Routes>
           <Route path='/admin/TC' element={<TrangChuAdmin />} />
+          <Route path='/admin/ND' element={<QLNguoiDung />} />
           <Route path='/admin/CC' element={<QLChungChi />} />
           <Route path='/admin/KH' element={<QLKhoaHoc />} />
           <Route path='/admin/KT' element={<QLKyThi />} />

@@ -14,7 +14,8 @@ function NavBar() {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    px: 4
+    px: 4,
+    marginBottom: 2
   }
 
   const ButtonListStyle = {

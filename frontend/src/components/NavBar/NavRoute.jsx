@@ -9,6 +9,7 @@ import NavButton from './NavButton.jsx'
 function NavRoute({ ButtonListStyle, ButtonNavStyle }) {
   const navItems = [
     { content: 'Trang chủ', path: '/admin/TC' },
+    { content: 'Người dùng', path: '/admin/ND' },
     { content: 'Chứng chỉ', path: '/admin/CC' },
     { content: 'Khóa học', path: '/admin/KH' },
     { content: 'Kỳ thi', path: '/admin/KT' },
