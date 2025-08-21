@@ -11,6 +11,7 @@ const theme = extendTheme({
     textWhite: '#f5f6fa',
     board: '#5197fb',
     tableHeader: '#3a8aff',
+    borderColor: '#00082421',
     light: {
       main: 'red'
     },

@@ -10,10 +10,11 @@ function TableCustome() {
 
   const TableStyle = {
     width: '100%',
-    boxShadow: '0 2px 8px 0 rgba(31, 38, 135, 0.10), 0 1.5px 3px 0 rgba(60,60,60,0.06)',
-    borderRadius: '8px',
-    backdropFilter: 'blur(4px)',
-    margin: '32px auto'
+    minHeight: '80vh',
+    border: '1px solid',
+    borderColor: (theme) => theme.custome.borderColor,
+    boxShadow: '0 8px 8px 0 rgba(31, 38, 135, 0.10), 0 1.5px 3px 0 rgba(60,60,60,0.06)',
+    borderRadius: '8px'
   };
 
   return (

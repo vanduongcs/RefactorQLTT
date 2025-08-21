@@ -3,11 +3,12 @@ import Box from '@mui/material/Box'
 // Custome
 import TableCustome from '../Table/TableCustome'
 
-function AdminPage() {
+function AdminPage({ FormComponent, Content }) {
 
   const AdminPageStyle = {
     display: 'flex',
     justifyContent: 'space-between',
+    margin: '32px auto'
   }
 
   const LeftPart = {
@@ -27,7 +28,7 @@ function AdminPage() {
         <TableCustome />
       </Box>
       <Box sx={RightPart}>
-        <TableCustome />
+        <FormComponent Content={Content} />
       </Box>
     </Box>
   )

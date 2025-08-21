@@ -16,6 +16,8 @@ function LayOut() {
     <Box>
       <Router>
         <Routes>
+          <Route path='/' element={<TrangChuAdmin />} />
+
           <Route path='/admin/TC' element={<TrangChuAdmin />} />
           <Route path='/admin/ND' element={<QLNguoiDung />} />
           <Route path='/admin/CC' element={<QLChungChi />} />
